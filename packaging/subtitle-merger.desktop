@@ -1,0 +1,11 @@
+[Desktop Entry]
+Type=Application
+Version=1.0
+Name=Subtitle Merger
+GenericName=Bilingual subtitle merger
+Comment=Merge two SRT subtitles of different languages into one file
+Exec=subtitle-merger
+Icon=media-subtitle
+Terminal=false
+Categories=AudioVideo;Video;Utility;
+Keywords=subtitle;srt;merge;bilingual;
