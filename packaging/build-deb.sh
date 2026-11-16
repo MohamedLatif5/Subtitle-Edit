@@ -29,9 +29,8 @@ chmod +x "$STAGE/usr/local/bin/subtitle-merger"
 # Desktop entry for the application menu.
 cp packaging/subtitle-merger.desktop "$STAGE/usr/local/share/applications/"
 
-# Documentation and license.
-cp README.md docs/*.md "$STAGE/usr/local/share/doc/subtitle-merger/"
-cp LICENSE "$STAGE/usr/local/share/doc/subtitle-merger/"
+# License.
+cp README.md LICENSE "$STAGE/usr/local/share/doc/subtitle-merger/"
 
 # Package control file.
 cat > "$STAGE/DEBIAN/control" <<EOF

@@ -8,6 +8,9 @@ venv/
 # Packaging build artifacts
 dist/
 
+# Local documentation (not published)
+docs/
+
 # Editors / OS
 .vscode/
 .idea/

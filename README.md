@@ -38,8 +38,6 @@ sudo apt install python3-tk
 ./run.sh        # or: python3 main.py
 ```
 
-See [docs/INSTALL.md](docs/INSTALL.md) for details.
-
 ## Example
 
 Input — `ar.srt` and `en.srt`:
@@ -67,15 +65,7 @@ Welcome to the video
 | `gui/app.py`            | Tkinter GUI                              |
 | `main.py` / `run.sh`    | Entry points                             |
 | `tests/`                | Unit tests + sample SRT files            |
-| `docs/`                 | Installation, usage, architecture, AGENTS |
 | `packaging/`            | .deb build script + desktop entry        |
-
-## Documentation
-
-- [docs/INSTALL.md](docs/INSTALL.md) — installation on Ubuntu
-- [docs/USAGE.md](docs/USAGE.md) — step-by-step usage guide + troubleshooting
-- [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md) — how the code and merge algorithm work
-- [docs/AGENTS.md](docs/AGENTS.md) — guide for AI coding agents working on this repo
 
 ## Tests
 
